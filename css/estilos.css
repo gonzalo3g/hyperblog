@@ -36,3 +36,9 @@ body
     font-weight: normal;
     font-size: 0.4cm;
 }
+#footer
+{
+	background:#777;
+	color:white;
+	text-align: center
+}
