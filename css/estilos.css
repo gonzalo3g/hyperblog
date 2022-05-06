@@ -1,38 +1,52 @@
 body
 {
-    text-align: left;
-    font-family: "arial";
-    color:gray;
-    font-size: 16;
+    background: #1e1f24;
+    color: #333;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
-#container
-{
-    width: 70%;
-    padding: 1cm;
-    text-align: left;
-    border: 1px solid red;
-    margin: 0 auto;
-}
-#container h1
-{
-    font-size: 30px;
-}
+
 #cabecera
 {
-    background: blue;
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
-    box-shadow: 22px 18px 37px -2px rgba(0,0,0,0.75);
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
-    font-size: 0.7cm;
-
 }
+
+#cabecera #logo
+{
+    width: 50px;
+    vertical-align: middle;
+}
+
 #cabecera #tagline
 {
-    margin: 0 0 0 1em;
+    padding: 0 0 0 1em;
     font-weight: normal;
-    font-size: 0.4cm;
+    font-size: 0.8em;
+}
+
+#container
+{
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 20px;
+}
+#post
+{
+    background: white;
+    padding: 1em;
 }
