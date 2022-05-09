@@ -21,7 +21,11 @@ body
 
 #cabecera #logo
 {
+<<<<<<< HEAD
     width: 50px;
+=======
+    width: 20px;
+>>>>>>> e66775c9840434d775fce821998408449041af96
     vertical-align: middle;
 }
 
@@ -30,6 +34,7 @@ body
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+<<<<<<< HEAD
 }
 
 #container
@@ -49,4 +54,33 @@ body
 {
     background: white;
     padding: 1em;
+=======
+}
+
+#container
+{
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 20px;
+}
+#post
+{
+    background: white;
+    padding: 1em;
+}
+
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+>>>>>>> e66775c9840434d775fce821998408449041af96
 }
